@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://localhost:27017/iamROARe_ERS");
+mongoose.connect("mongodb+srv://singhshreyash466:123@cluster0.cd9nwhd.mongodb.net/employeereview");
 
 
 const db= mongoose.connection;
